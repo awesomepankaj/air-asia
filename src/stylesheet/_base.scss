@@ -20,12 +20,14 @@ time, mark, audio, video {
   font: inherit;
   vertical-align: baseline;
 }
-
+body {
+  background: rgba(246, 246, 246, 1);
+}
 *,html,body {
   font-size: 100%;
   line-height: 1.4;
-  font-family: $font-family2;
-  color: $font-color1;
+  font-family: $font-family;
+  color: rgba(255, 255, 255, 1); 
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
@@ -33,6 +35,7 @@ time, mark, audio, video {
 h1 {
   font-size: 2em;
   font-weight: bolder;
+  color: $font-color; 
 }
 h2 {
   font-size: 1.5em;
@@ -55,11 +58,11 @@ h6 {
   font-weight: bolder;
 }
 h1,h2,h3,h4,h5,h6 {
-  font-family: $font-family2;
+  font-family: $font-family;
 }
 p {
   font-size: 1em;
-  font-family: $font-family1;
+  font-family: $font-family;
 }
 li {
   list-style-type: none;

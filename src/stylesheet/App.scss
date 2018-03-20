@@ -2,8 +2,91 @@
 @import "vars";
 @import "grid";
 
-.App {
-	h1 {
-		color: black;
+// ============================
+// Header
+// ============================
+
+.header {
+	background: #fff;
+	padding: 12px 0;
+}
+.hamburger {
+	cursor: pointer;
+}
+.hamburger__icon {
+	width: 18px;
+	height: 0;
+	border-top: 2px solid $theme-color;
+	margin: 3px 0;
+}
+
+.feedback {
+	background: rgba(246, 246, 246, 1);
+	padding: 50px 0;
+}
+
+.user__name {
+	font-size: 24px;
+	color: $theme-color;
+	letter-spacing: 2.4px;
+	line-height: 33.4px;
+	font-weight: 500;
+}
+.feedback__preference {
+	h4 {
+		color: $font-color;
+		letter-spacing: 0.04em;
+		font-size: 16px;
+		line-height: 24px;
+		margin: 5px 0;
+		font-weight: 500;
+	}
+	a {
+		font-size: 12px;
+		color: rgba($font-color, 0.5);
+		letter-spacing: 0.04em;
+		text-decoration: underline;
+		display: inline-block;
+		font-weight: 400;
+	}
+	h3 {
+		color: $font-color;
+		font-weight: 400;
+		font-size: 24px;
+		line-height: 33.6px;
+		letter-spacing: 0.04em;
+	}
+}
+.star {
+	width: 32px;
+	margin: 8px 0;
+}
+.feedback__block {
+	p {
+		color: $font-color;
+		margin: 30px 0;
+		letter-spacing: 0.04em;
+	}
+	span {
+		color: $font-color;
+		text-decoration: underline;
+		margin: 0 10px;
+		font-size: 24px;
+		font-weight: 400;
+	}
+}
+.footer {
+	background: $font-color;
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	z-index: 1;
+	.menu {
+		@extend %flex-between;
+		padding: 12px 0;
+		a {
+			font-size: 18px;
+			letter-spacing: 0.08em;
+		}
 	}
 }
