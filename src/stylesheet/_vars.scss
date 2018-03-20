@@ -1,0 +1,29 @@
+// ===========================
+// Variables
+// ===========================
+
+$theme-color: #020f1f;
+$accent-color: #397f95;
+$heading-color1: #CAC2AD;
+$heading-color: #C6CADA;
+$link-color: #9c9ebf;
+$font-family1: 'Roboto', sans-serif;
+$font-family2: 'Yrsa', serif;
+$font-color1: #feffff;
+// ===========================
+// Mixins
+// ===========================
+
+%flex-between {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+
