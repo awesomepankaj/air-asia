@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import Header from './../components/Header';
 import Feedback from './Feedback';
+import FlightSettings from './FlightSettings';
 import Footer from './../components/Footer';
 
 import './../stylesheet/App.scss';
@@ -11,7 +12,7 @@ class App extends Component {
     return (
       <div className="App">
 	      <Header />
-	      <Feedback />
+	      <FlightSettings />
 	      <Footer />
       </div>
     );
