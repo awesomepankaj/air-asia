@@ -21,7 +21,7 @@
 }
 .settings__wrapper {
 	position: relative;
-	padding: 30px 0;
+	padding: 20px 0;
 }
 .background-img {
 	position: absolute;
@@ -120,7 +120,7 @@
 	letter-spacing: 0.04em;  
 }
 .comment__btn {
-	margin-top: 30px;
+	margin-top: 20px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -134,13 +134,13 @@
 	}
 }
 .btn {
-	padding: 6px 30px;
+	padding: 8px 30px;
 	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
-	font-size: 16px;
+	font-size: 12px;
 	font-weight: 400;
 	letter-spacing: 0.04em;
 	border-radius: 6px;
-	margin: 0 30px;
+	margin: 0 32px;
 }
 .btn-primary {
 	background: $theme-color;
@@ -151,9 +151,6 @@
 }
 .setting__container {
 	margin-top: 20px;
-}
-.settings__header {
-	padding: 30px 0;
 }
 .setting__questions {
 	padding: 10px 0;
@@ -169,11 +166,13 @@
 	span {
 		display: inline-block;
 		color: $font-color;
+		font-size: 10px;
+		letter-spacing: 1.17px;
 	}
 	.radio-outer {
 		border: 2px solid $font-color;
-		height: 20px;
-		width: 20px;
+		height: 12px;
+		width: 12px;
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -181,8 +180,8 @@
 		margin-right: 8px;
 	}
 	.radio-inner {
-		height: 8px;
-		width: 8px;
+		height: 4px;
+		width: 4px;
 		background: $font-color;
 		border-radius: 50%;
 	}
@@ -193,18 +192,20 @@
 .setting__choices {
 	display: flex;
 	align-items: center;
-	padding: 10px 0;
+	padding: 6px 0;
 }
 .heading {
-	font-size: 26px;
+	font-size: 16px;
 	color: $font-color;
-	letter-spacing: 0.04em;
+	letter-spacing: 0.12em;
 	font-weight: 400;
+	margin: 24px 0;
 }
 .label {
 	color: $theme-color;
-	font-size: 16px;
+	font-size: 12px;
 	font-weight: 400;
+	letter-spacing: 0.12em;
 	text-transform: capitalize;
 }
 .footer {
