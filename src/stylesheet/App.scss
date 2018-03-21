@@ -75,6 +75,35 @@
 		font-weight: 400;
 	}
 }
+.comment {
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+	color: rgba($font-color, 0.5);
+	border-radius: 4px;
+	resize: none;
+}
+.comment::-webkit-input-placeholder {
+	color: rgba($font-color, 0.5);
+	font-size: 14px;
+	letter-spacing: 0.04em;
+}
+
+.comment:-moz-placeholder { /* Firefox 18- */
+	color: rgba($font-color, 0.5);
+	font-size: 14px;
+	letter-spacing: 0.04em;  
+}
+
+.comment::-moz-placeholder {  /* Firefox 19+ */
+	color: rgba($font-color, 0.5);
+	font-size: 14px;
+	letter-spacing: 0.04em;  
+}
+
+.comment:-ms-input-placeholder {
+	color: rgba($font-color, 0.5);
+	font-size: 14px;
+	letter-spacing: 0.04em;  
+}
 .footer {
 	background: $font-color;
 	position: absolute;
